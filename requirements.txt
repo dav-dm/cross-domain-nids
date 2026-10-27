@@ -1,0 +1,12 @@
+filelock
+matplotlib
+numpy
+pandas
+PyYAML
+scikit_learn
+seaborn
+torch
+torchmetrics
+tqdm
+hmmlearn
+pyarrow
