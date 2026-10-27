@@ -29,7 +29,7 @@ class NetworkingDataset(Dataset):
         y = self.y[idx]
         q = self.q[idx]
 
-        if self.transform is None and self.poisoning is None:
+        if self.transform is None:
             result = (torch.from_numpy(x).float(), torch.from_numpy(np.array(y)).float())
             return result + (q,) if self.return_quintuple else result
 
