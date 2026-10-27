@@ -9,7 +9,6 @@ from .ghmm import GHMM
 from .lof import LocalOutlierFactor 
 from .dae3 import DAE3
 from .baseline import Baseline
-from .rfs import RFS
 from .adda import ADDA
 from .mcc import MCC
 from .mcd import MCD
