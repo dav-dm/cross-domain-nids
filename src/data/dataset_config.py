@@ -7,14 +7,14 @@ dataset_config = {
     'iomt': {
         'path': (
             f'{_BASE_DATA_PATH}/iomt/'
-            'iomt_traffic_data_100pkts_7f_load_net_no-dupes-wIAT_no-pl-mt1500_no-load_clean-uniform.parquet'
+            'iomt_traffic.parquet'
         ),
         'label_column': 'LABEL-bin',
     },
     'cic_iomt': {
         'path': (
             f'{_BASE_DATA_PATH}/cic_iomt/'
-            'cic-iomt_100pkts_7f_1p-mt1m_10p-mt100k_no-dupes-wIAT_no-load_clean_uniform-label.parquet'
+            'cic-iomtl.parquet'
         ),
         'label_column': 'LABEL-bin',
     }
